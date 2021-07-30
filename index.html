@@ -9,8 +9,31 @@
   </head>
   <body>
     <section class="fond flex-centre">
-      <div>
-        <form action="post"></form>
+      <div class="back-formulaire flex-column-between">
+        <div class="design-form"></div>
+        <form action="post" class="flex-column-around">
+          <div class="div-form flex-column-between">
+            <label for="pseudo">Pseudo</label>
+            <input id="pseudo" type="text" />
+            <span></span>
+          </div>
+          <div class="div-form flex-column-between">
+            <label for="mail">email</label>
+            <input id="mail" type="mail" />
+            <span></span>
+          </div>
+          <div class="div-form flex-column-between">
+            <label for="pass">Mot de passe</label>
+            <input id="pass" type="password" />
+            <span></span>
+          </div>
+          <div class="div-form flex-column-between">
+            <label for="confirm">Confirmer password</label>
+            <input id="confirm" type="password" />
+            <span></span>
+          </div>
+          <button></button>
+        </form>
       </div>
     </section>
     <script src="index.js"></script>

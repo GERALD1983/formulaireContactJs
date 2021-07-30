@@ -3,7 +3,18 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.flex-column-between {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-column-around {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .flex-centre {
   display: flex;
   justify-content: center;
@@ -23,4 +34,35 @@ body {
   background-image: url("img/fondbrique.jpg");
   width: 100%;
   height: 100vh;
+}
+.back-formulaire {
+  background-color: white;
+  width: 500px;
+  height: 80vh;
+  border: 3px solid bisque;
+  border-radius: 30px;
+}
+.design-form {
+  background-color: rgb(245, 178, 9);
+  width: 300px;
+  height: 50px;
+  border-radius: 200px 200px 20px 20px;
+  border: 2px solid bisque;
+  margin-top: -30px;
+}
+form {
+  min-height: 90%;
+}
+.div-form {
+  width: 80%;
+  height: auto;
+}
+input:focus {
+  outline: none;
+}
+input {
+  border: 1px solid rgb(245, 178, 9);
+  border-radius: 20px;
+  width: 350px;
+  min-height: 40px;
 }
