@@ -15,24 +15,29 @@
           <div class="div-form flex-column-between">
             <label for="pseudo">Pseudo</label>
             <input id="pseudo" type="text" />
-            <span></span>
+            <span id="pseudoName"></span>
           </div>
           <div class="div-form flex-column-between">
             <label for="mail">email</label>
             <input id="mail" type="mail" />
-            <span></span>
+            <span id="email"></span>
           </div>
           <div class="div-form flex-column-between">
             <label for="pass">Mot de passe</label>
             <input id="pass" type="password" />
-            <span></span>
+            <div class="flex-column-start">
+              <span id="confirmPassDanger" class="display-none"></span>
+              <span id="confirmPassWarn" class="display-none"></span>
+              <span id="confirmPassSucces" class="display-none"></span>
+            </div>
+            <span id="password"></span>
           </div>
           <div class="div-form flex-column-between">
             <label for="confirm">Confirmer password</label>
             <input id="confirm" type="password" />
-            <span></span>
+            <span id="confirmPass"></span>
           </div>
-          <button></button>
+          <button class="back-button">Envoyer</button>
         </form>
       </div>
     </section>
